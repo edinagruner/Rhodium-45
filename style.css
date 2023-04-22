@@ -47,6 +47,9 @@ section{
     justify-content: space-between;
 
 }
+a{
+    color:none;
+}
 /*Hero-Section*/
 #hero{
     background-image: url('img/hero-img-min.jpg'); 
