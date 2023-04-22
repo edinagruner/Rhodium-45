@@ -90,7 +90,7 @@ button.hamburger:hover{
 .line-hamburger{
     width:32px;
     height:3px;
-    margin-bottom:8px;
+    margin-bottom:6px;
     
 }
 .line-hamburger.blue-bg{
@@ -359,17 +359,16 @@ p.footer{
         h2{
             margin-bottom:60px;
         }
-        button{
-            width:105px;
-            font-weight: 400px;
-            font-size: smaller;
-        }
+      
         button#contact{
            margin-left:0;
            margin-top:20px;
         }
         .about-textbox{
             padding:90px 0;
+        }
+        #footer{
+            padding-bottom:60px;
         }
       }
     }
