@@ -90,7 +90,7 @@ button.hamburger{
     width:auto;
 }
 button.hamburger:hover{
-    margin-top:2px;
+  
     cursor: pointer;
 }
 .line-hamburger{
