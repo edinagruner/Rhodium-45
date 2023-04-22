@@ -332,7 +332,7 @@ p.footer{
       }
       #emailus{
  margin-bottom:30px;
- border-left:2px #E507B0 solid;
+ border-left:1px #E507B0 solid;
       }
       #footer-about{
         margin-left:0;
@@ -361,6 +361,8 @@ p.footer{
         }
         button{
             width:105px;
+            font-weight: 400px;
+            font-size: smaller;
         }
         button#contact{
            margin-left:0;
