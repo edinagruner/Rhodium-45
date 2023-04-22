@@ -185,6 +185,9 @@ p.footer{
     margin: 0;
     
 }
+a.contact:hover{
+color:#38BCFD;
+}
 
 .first{
     border-left:#D5D5D5 solid 1px;
