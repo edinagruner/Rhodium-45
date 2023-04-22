@@ -47,8 +47,10 @@ section{
     justify-content: space-between;
 
 }
-a{
-    color:none;
+a {
+   
+    display: contents;
+    width: 100px;
 }
 /*Hero-Section*/
 #hero{
