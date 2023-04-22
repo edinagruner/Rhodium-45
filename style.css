@@ -65,14 +65,20 @@ a {
     width:125px;
 }
 #hero-textbox{
-    width:55%;
+    width:60%;
     margin-top:160px;
 }
 h1{
     font-size: 75px;
     font-weight: 700;
 }
-
+:root {
+    --animate-duration: 2s;
+   
+  }
+  .animate__animated animate__slideInRight{
+    --animate-delay: 2s;
+  }
 #hero-p{
     font-size:18px;
     line-height:28px;
@@ -96,7 +102,9 @@ button.hamburger:hover{
 .line-hamburger.blue-bg{
     width:26px;
 }
-
+li{
+    margin-bottom:20px;
+}
   .dropdown-menu{
     border: none;
     padding:5px;
@@ -302,6 +310,22 @@ form{
     .copyright{
         font-size:12px;
         margin-top:90px;
+    }
+    /*Coming Soon*/
+    #comingsoon{
+        height:100vh;
+        padding:60px 0 160px;
+    }
+    #comingsoon-textbox{
+        text-align: center;
+        padding-top:60px;
+    }
+    #comingsoonline{
+        max-width: 800px;
+        margin: 60px auto;
+    }
+    #comingsoonline>img{
+        width:100%;
     }
     @media only screen and (max-width: 620px){
         .container{
