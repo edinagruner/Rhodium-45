@@ -71,7 +71,7 @@ a {
     padding:7px 0;
     color:#D5D5D5;
     position: absolute;
-    right:60px;
+    right:50px;
     opacity:0.55;
     font-size:smaller;
 }
@@ -205,6 +205,7 @@ h3{
 p.footer{
     font-weight:200;
     margin: 0;
+    font-size: 15px;
     
 }
 a.contact:hover{
@@ -365,6 +366,9 @@ form{
        font-size: 40px;
       }
       p{
+        font-size:15px;
+      }
+      p.footer{
         font-size:14px;
       }
       .flexbox{
