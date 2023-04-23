@@ -47,6 +47,9 @@ section{
     justify-content: space-between;
 
 }
+.nav-flexbox{
+    position:relative;
+}
 a {
    
     display: contents;
@@ -63,6 +66,17 @@ a {
 }
 .logo{
     width:125px;
+}
+.language{
+    padding:7px 0;
+    color:#D5D5D5;
+    position: absolute;
+    right:60px;
+    opacity:0.55;
+    font-size:smaller;
+}
+.language:hover{
+    opacity:0.8;
 }
 #hero-textbox{
     width:60%;
