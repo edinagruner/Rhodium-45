@@ -33,6 +33,9 @@ html, body {
 .blue-bg{
     background-color:#38BCFD;
 }
+.white-bg{
+    background-color: white;
+}
 section{
     width:100%;
     margin:0;
@@ -94,9 +97,9 @@ h1{
     --animate-delay: 2s;
   }
 #hero-p{
-    font-size:18px;
-    line-height:28px;
-    font-weight: 300;
+    font-size:21px;
+    line-height:40px;
+    font-weight: 200;
 }
 button.hamburger{
     background:none;
@@ -173,22 +176,24 @@ button#contact{
 
 .about-textbox{
  width:80%;
- text-align: center;
+ text-align: left;
  margin:auto;
  padding:120px 0;
- 
+
 }
 h2{
     font-weight: 600;
     font-size:48px;
     line-height: 129%;
     margin:0 auto 90px;
+   text-align: center;
 }
 p{
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 40px;
 
 }
+
 /*Footer-Section*/
 #footer{
     padding: 60px 0 60px;
@@ -207,6 +212,9 @@ p.footer{
     margin: 0;
     font-size: 15px;
     
+}
+.opacity{
+    opacity:0.6;
 }
 a.contact:hover{
 color:#38BCFD;
@@ -341,6 +349,70 @@ form{
     }
     #comingsoonline>img{
         width:100%;
+    }
+    /*About Page*/
+    #about-page{
+        background-image: url('img/About-bg.jpg'); 
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding:60px 0 160px;
+   position: relative;
+    }
+    .flexbox.about-page{
+        padding:90px 30px;
+        margin:120px auto;
+        border-radius: 4px;
+        -webkit-box-shadow: 0px 15px 35px 0px rgba(13,11,43,1);
+-moz-box-shadow: 0px 15px 35px 0px rgba(13,11,43,1);
+box-shadow: 0px 15px 35px 0px rgba(13,11,43,1);
+    }
+    .title-box{
+        width:50%;
+        padding:60px 20px 60px 30px;
+       border-right: 3px solid #FFB633;
+    }
+    .title-box>h2{
+        text-align: left;
+    }
+   .second-titlebox{
+    border-right: 3px solid #38BCFD;
+   }
+   .third-titlebox{
+    border-right: 3px solid #E507B0;
+   }
+    .about-page-textbox{
+     width:50%;
+     padding:0 30px;
+    }
+    @media only screen and (max-width: 1024px){
+        
+
+#about-page{
+    padding:90px 0;
+}
+        .flexbox.about-page{
+            flex-wrap: wrap;
+        }
+        .about-page-textbox{
+            width:100%;
+            padding:0;
+        
+        }
+        .title-box{
+            width:100%;
+            padding:0 0 0 20px;
+            border-right:0;
+            border-left:3px solid #FFB633;
+        }
+        .second-titlebox{
+            border-left: 3px solid #38BCFD;
+            border-right:0;
+           }
+           .third-titlebox{
+            border-left: 3px solid #E507B0;
+            border-right:0;
+           }
     }
     @media only screen and (max-width: 620px){
         .container{
