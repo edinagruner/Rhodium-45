@@ -180,6 +180,7 @@ button#contact{
  margin:auto;
  padding:120px 0;
 
+
 }
 h2{
     font-weight: 600;
@@ -192,6 +193,12 @@ p{
     font-size: 20px;
     line-height: 40px;
 
+}
+.arrow{
+  float:right;
+  right:35px;
+  position: relative;
+  width:40px;
 }
 
 /*Footer-Section*/
@@ -358,6 +365,7 @@ form{
     background-repeat: no-repeat;
     padding:60px 0 160px;
    position: relative;
+ 
     }
     .flexbox.about-page{
         padding:90px 30px;
